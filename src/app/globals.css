@@ -2,3 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-disney {
+  font-weight: 900;
+  font-size: 3rem;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(0, 142, 54);
+  filter: drop-shadow(5px 5px 0px #005d23);
+}
+
+svg {
+  font-size: 40px;
+  font-weight: bold;
+  width: 450px;
+  height: 70px;
+  fill: white;
+}
+
+.svgText {
+  fill: white;
+  stroke: rgb(0, 104, 223);
+  stroke-width: 10px;
+  stroke-linejoin: round;
+  paint-order: stroke;
+  filter: drop-shadow(5px 5px 0px #00257a);
+}

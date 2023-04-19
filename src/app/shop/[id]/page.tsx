@@ -1,5 +1,5 @@
+import { Product } from "@/interfaces/product.interface";
 import Image from "next/image";
-import { Product } from "../page";
 
 interface Props {
   params: {
