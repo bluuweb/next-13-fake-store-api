@@ -3,9 +3,7 @@ import ProductCard from "@/components/ProductCard";
 
 const fakePromise = () =>
   new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("");
-    }, 2000);
+    setTimeout(resolve, 2000);
   });
 
 const getData = async (): Promise<Array<Product>> => {
